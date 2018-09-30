@@ -6,22 +6,9 @@ Preferences preferences;
 #define WIFICONFIG 3
 
 #if (WIFICONFIG==0)
-  const char* ssid = "LED";
-  const char* password = "Soundcraft";  
+  const char* ssid = "your-ssid";
+  const char* password = "your-password";  
 #endif
-#if (WIFICONFIG==1)
-  const char* ssid = "X-WL Wireless";
-  const char* password = "wolk244521240792";  
-#endif
-#if (WIFICONFIG==2)
-  const char* ssid = "Xperia Z1 Compact";
-  const char* password = "Soundcraft";  
-#endif
-#if (WIFICONFIG==3)
-  const char* ssid = "Production";
-  const char* password = "Soundcraft";  
-#endif
-
 
 #if (IPCONFIG==0) 
   byte mac[6] = {1,2,3,4,5,6};
